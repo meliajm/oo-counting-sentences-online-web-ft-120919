@@ -2,8 +2,8 @@
 
 class String
 
-  def sentence?
-    # input[-1] == "." ? true : false
+  def sentence?(s)
+    s[-1] == "." ? true : false
     
   end
 
