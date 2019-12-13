@@ -7,7 +7,7 @@ class String
     s[-1] == "." ? true : false
     
   end
-  binding.pry
+  # binding.pry
   def question?
 
   end
