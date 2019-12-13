@@ -3,6 +3,7 @@
 class String
 
   def sentence?
+    ? true : false
     
   end
 
