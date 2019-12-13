@@ -1,7 +1,7 @@
  require 'pry'
 
 class String
-
+  
   def sentence?(s)
     s[-1] == "." ? true : false
     
