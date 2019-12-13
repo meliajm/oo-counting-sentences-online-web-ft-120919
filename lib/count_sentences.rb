@@ -6,13 +6,13 @@ class String
   def sentence?(self)
     
     self[-1] == "." ? true : false
-    
+  end  
     # if s[-1] == "."
     #   return true
     # else
     #   return false
     # end
-  end
+  
   # binding.pry
   def question?
 
