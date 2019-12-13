@@ -3,7 +3,7 @@
 class String
   
   # attr_accessor :s
-  def sentence?(self)
+  def sentence?
     
     self[-1] == "." ? true : false
   end  
