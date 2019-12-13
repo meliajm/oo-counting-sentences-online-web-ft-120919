@@ -7,19 +7,13 @@ class String
     
     self[-1] == "." ? true : false
   end  
-    # if s[-1] == "."
-    #   return true
-    # else
-    #   return false
-    # end
-  
-  # binding.pry
+    
   def question?
-
+    self[-1] == "?" ? true : false
   end
 
   def exclamation?
-
+    self[-1] == "!" ? true : false
   end
 
   def count_sentences
