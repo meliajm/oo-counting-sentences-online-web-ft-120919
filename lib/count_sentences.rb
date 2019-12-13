@@ -17,8 +17,8 @@ class String
   def count_sentences
     count = 0
     a = self.split(" ")
-    a.each do ||
-      
+    a.each do |str|
+      if 
     end
     
 
