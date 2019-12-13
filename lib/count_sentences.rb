@@ -10,7 +10,7 @@ class String
       return true
     else
       return false
-    
+    end
   end
   # binding.pry
   def question?
