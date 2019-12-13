@@ -2,9 +2,7 @@
 
 class String
   
-  # attr_accessor :s
   def sentence?
-    
     self[-1] == "." ? true : false
   end  
     
@@ -17,6 +15,11 @@ class String
   end
 
   def count_sentences
+    count = 0
+    if sentence? || question? || exclamation?
+      count += 1
+      
+    end
 
   end
 end
