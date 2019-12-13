@@ -3,7 +3,7 @@
 class String
 
   def sentence?(input)
-    input[-1] == "." ? true : false
+    # input[-1] == "." ? true : false
     
   end
 
