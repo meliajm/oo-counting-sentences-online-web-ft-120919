@@ -16,6 +16,10 @@ class String
 
   def count_sentences
     count = 0
+    a = self.split(" ")
+    a.each do ||
+      
+    end
     
 
   end
