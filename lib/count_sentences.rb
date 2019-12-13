@@ -3,14 +3,15 @@
 class String
   
   # attr_accessor :s
-  def sentence?(s)
+  def sentence?(self)
     
-    # s[-1] == "." ? true : false
-    if s[-1] == "."
-      return true
-    else
-      return false
-    end
+    self[-1] == "." ? true : false
+    
+    # if s[-1] == "."
+    #   return true
+    # else
+    #   return false
+    # end
   end
   # binding.pry
   def question?
