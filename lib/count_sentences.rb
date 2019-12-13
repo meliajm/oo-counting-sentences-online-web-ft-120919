@@ -18,10 +18,8 @@ class String
     count = 0
     a = self.split(" ").each { |str| 
      count += 1 if str.question? || str.exclamation? || str.sentence?}
-    # a.each do |str|
-    #   if 
-    # end
+  end
     
 
-  end
+  
 end
