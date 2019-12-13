@@ -18,6 +18,7 @@ class String
     count = 0
     a = self.split(" ").each { |str| 
      count += 1 if str.question? || str.exclamation? || str.sentence?}
+  count
   end
     
 
